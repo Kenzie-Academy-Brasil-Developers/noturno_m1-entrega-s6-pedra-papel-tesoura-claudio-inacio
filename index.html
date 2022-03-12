@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div id="imagens">
+            <img src="img/kisspng-rock-animation-meteorite-stones-and-rocks-5ab487e53c7c01.8211333615217807092478.png" alt="pedra">
+            <img src="img/5a2a37e3aa0f05.1167056515127162596966.png" alt="papel">
+            <img src="img/kisspng-rockpaperscissors-computer-icons-5b2038b1085e13.3818549915288383210343.png" alt="tesoura">
+        
+        </div>
+        
+        <h1>PEDRA, PAPEL E TESOURA!!!</h1>
+    </header>
+
+    <div id="container">
+
+        <section id="jogo">
+            <h3>Escolha seu Objeto</h3>
+            <button id="pedra"><img src="img/kisspng-rock-animation-meteorite-stones-and-rocks-5ab487e53c7c01.8211333615217807092478.png" alt="pedra"></button>
+            <button id="papel"><img src="img/5a2a37e3aa0f05.1167056515127162596966.png" alt="papel"></button>
+            <button id="tesoura"><img src="img/kisspng-rockpaperscissors-computer-icons-5b2038b1085e13.3818549915288383210343.png" alt="tesoura"></button>
+        </section>
+        
+
+        <section id="computador">
+            <form id="pcEscolha">
+                <p>
+                    <label for="escolhaPc">Computador Escolheu:</label>
+                    <input type="text" name="escolhaPc" readonly>
+                </p>
+            </form>
+        </section>
+
+        <section id="resultado">
+            <h3>Resultado</h3>
+            <form id="mostrarResultado">
+                <label for="vit">Vitoria:</label>
+                <input type="text" name="vit" readonly>
+                <label for="der">Derrota:</label>
+                <input type="text" name="der" readonly>
+                <label for="empt">Empate:</label>
+                <input type="text" name="empt" readonly>
+
+                <input type="reset" value="Reset" id="resete">
+            </form>
+        </section>
+
+
+       
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
